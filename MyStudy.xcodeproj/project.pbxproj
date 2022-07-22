@@ -12,6 +12,7 @@
 		91628318288A4C4300F5A780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91628317288A4C4300F5A780 /* Assets.xcassets */; };
 		9162831B288A4C4300F5A780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9162831A288A4C4300F5A780 /* Preview Assets.xcassets */; };
 		91628322288A51C600F5A780 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91628321288A51C600F5A780 /* MyVStackView.swift */; };
+		91628324288A5A7B00F5A780 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91628323288A5A7B00F5A780 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		91628317288A4C4300F5A780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9162831A288A4C4300F5A780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91628321288A51C600F5A780 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
+		91628323288A5A7B00F5A780 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				91628313288A4C4100F5A780 /* MyStudyApp.swift */,
 				91628315288A4C4100F5A780 /* ContentView.swift */,
 				91628321288A51C600F5A780 /* MyVStackView.swift */,
+				91628323288A5A7B00F5A780 /* MyTextView.swift */,
 				91628317288A4C4300F5A780 /* Assets.xcassets */,
 				91628319288A4C4300F5A780 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91628316288A4C4100F5A780 /* ContentView.swift in Sources */,
+				91628324288A5A7B00F5A780 /* MyTextView.swift in Sources */,
 				91628314288A4C4100F5A780 /* MyStudyApp.swift in Sources */,
 				91628322288A51C600F5A780 /* MyVStackView.swift in Sources */,
 			);
