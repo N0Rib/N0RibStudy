@@ -11,14 +11,16 @@
 		91628316288A4C4100F5A780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91628315288A4C4100F5A780 /* ContentView.swift */; };
 		91628318288A4C4300F5A780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91628317288A4C4300F5A780 /* Assets.xcassets */; };
 		9162831B288A4C4300F5A780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9162831A288A4C4300F5A780 /* Preview Assets.xcassets */; };
+		91628322288A51C600F5A780 /* MyVStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91628321288A51C600F5A780 /* MyVStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		91628310288A4C4100F5A780 /* MyStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91628310288A4C4100F5A780 /* N0RibStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N0RibStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91628313288A4C4100F5A780 /* MyStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStudyApp.swift; sourceTree = "<group>"; };
 		91628315288A4C4100F5A780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91628317288A4C4300F5A780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9162831A288A4C4300F5A780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91628321288A51C600F5A780 /* MyVStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		91628311288A4C4100F5A780 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				91628310288A4C4100F5A780 /* MyStudy.app */,
+				91628310288A4C4100F5A780 /* N0RibStudy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +55,7 @@
 			children = (
 				91628313288A4C4100F5A780 /* MyStudyApp.swift */,
 				91628315288A4C4100F5A780 /* ContentView.swift */,
+				91628321288A51C600F5A780 /* MyVStackView.swift */,
 				91628317288A4C4300F5A780 /* Assets.xcassets */,
 				91628319288A4C4300F5A780 /* Preview Content */,
 			);
@@ -84,7 +87,7 @@
 			);
 			name = MyStudy;
 			productName = MyStudy;
-			productReference = 91628310288A4C4100F5A780 /* MyStudy.app */;
+			productReference = 91628310288A4C4100F5A780 /* N0RibStudy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +142,7 @@
 			files = (
 				91628316288A4C4100F5A780 /* ContentView.swift in Sources */,
 				91628314288A4C4100F5A780 /* MyStudyApp.swift in Sources */,
+				91628322288A51C600F5A780 /* MyVStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,18 +276,20 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.N0Rib.MyStudy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.N0Rib.N0RibStudy;
+				PRODUCT_NAME = N0RibStudy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,18 +306,20 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.N0Rib.MyStudy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.N0Rib.N0RibStudy;
+				PRODUCT_NAME = N0RibStudy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
